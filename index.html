@@ -3,9 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!--Link fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Boolando</title>
 </head>
 <body>
-    
+    <header class="font-white">
+        <nav class="container flex-between-centered">
+            <section class="gender-section flex-between-centered">
+                <p>
+                    Donna
+                </p>
+                <p>
+                Uomo
+                </p>
+                <p>
+                    Bambino
+                </p>
+            </section>
+            <section class="logo-section">
+                <img class="logo" src="./img/boolean-logo.png" alt="The boolean logo">
+            </section>
+            <section class="icon-section">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+            </section>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container row">
+            <article class="product">
+                <div class="product-image">
+                    <img class="static-image" src="./img/1.webp" alt="First product image">
+                    <img class="hover-image" src="./img/1b.webp" alt="Second product image">
+                    <div class="product-discount">
+                        <span class="tag tag-discount">-50%</span>
+                        <span class="tag tag-sustainability">Sostenibilita'</span>
+                    </div>
+                    <div class="product-like">
+                        <span>
+                            &heartsuit;
+                        </span>
+                    </div>
+                </div>
+                <div class="product-description">
+                    <p>
+                        Levi's
+                    </p>
+                    <h3>
+                        Relaxed fit tee unisex
+                    </h3>
+                    <div class="price">
+                        <p class="text-red">14,99 &euro;</p>
+                        <p class="line-through">29,99 &euro;</p>
+                    </div>
+                </div>
+            </article>
+            <article class="product">
+                <div class="product-image">
+                    <img class="static-image" src="./img/2.webp" alt="First product image">
+                    <img class="hover-image" src="./img/2b.webp" alt="Second product image">
+                    <div class="product-discount">
+                        <span class="tag tag-discount">-30%</span>
+                    </div>
+                    <div class="product-like">
+                        <span>
+                            &heartsuit;
+                        </span>
+                    </div>
+                </div>
+                <div class="product-description">
+                    <p>
+                        Guess
+                    </p>
+                    <h3>
+                        roses tee
+                    </h3>
+                    <div class="price">
+                        <p class="text-red">20,99 &euro;</p>
+                        <p class="line-through">29,99 &euro;</p>
+                    </div>
+                </div>
+            </article>
+            <article class="product">
+                <div class="product-image">
+                    <img class="static-image" src="./img/3.webp" alt="First product image">
+                    <img class="hover-image" src="./img/3b.webp" alt="Second product image">
+                    <div class="product-discount">
+                        <span class="tag tag-discount">-30%</span>
+                    </div>
+                      <div class="product-like">
+                        <span>
+                            &heartsuit;
+                        </span>
+                    </div>
+                </div>
+                <div class="product-description">
+                    <p>
+                        Come zucchero Filato
+                    </p>
+                    <h3>
+                        Voglia di colori pastello
+                    </h3>
+                    <div class="price">
+                        <p class="text-red">129,99 &euro;</p>
+                        <p class="line-through">184,99 &euro;</p>
+                    </div>
+                </div>
+            </article>
+            <article class="product">
+                <div class="product-image">
+                    <img class="static-image" src="./img/4.webp" alt="First product image">
+                    <img class="hover-image" src="./img/4b.webp" alt="Second product image">
+                    <div class="product-discount">
+                        <span class="tag tag-discount">-50%</span>
+                        <span class="tag tag-sustainability">Sostenibilita'</span>
+                    </div>
+                      <div class="product-like">
+                        <span>
+                            &heartsuit;
+                        </span>
+                    </div>
+                </div>
+                <div class="product-description">
+                    <p>
+                        Levi's
+                    </p>
+                    <h3>
+                        tee unisex
+                    </h3>
+                    <div class="price">
+                        <p class="text-red">14,99 &euro;</p>
+                        <p class="line-through">29,99 &euro;</p>
+                    </div>
+                </div>
+            </article>
+            <article class="product">
+                <div class="product-image">
+                    <img class="static-image" src="./img/5.webp" alt="First product image">
+                    <img class="hover-image" src="./img/5b.webp" alt="Second product image">
+                    <div class="product-discount"></div>
+                      <div class="product-like">
+                        <span>
+                            &heartsuit;
+                        </span>
+                    </div>
+                </div>
+                <div class="product-description">
+                    <p>
+                        Maya Delux
+                    </p>
+                    <h3>
+                        stripe bodice
+                    </h3>
+                    <div class="price">
+                        <p class="text-red">99,99 &euro;</p>
+                    </div>
+                </div>
+            </article>
+            <article class="product">
+                <div class="product-image">
+                    <img class="static-image" src="./img/6.webp" alt="First product image">
+                    <img class="hover-image" src="./img/6b.webp" alt="Second product image">
+                    <div class="product-discount">
+                        <span class="tag tag-sustainability">Sostenibilita'</span>
+                    </div>
+                    <div class="product-like">
+                        <span>
+                            &heartsuit;
+                        </span>
+                    </div>
+                </div>
+                <div class="product-description">
+                    <p>
+                        Esprit
+                    </p>
+                    <h3>
+                        maglione - black
+                    </h3>
+                    <div class="price">
+                        <p class="text-red">29,99 &euro;</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer class="font-white">
+        <section class="container position-relative">
+            <div class="font-weight flex-between-centered">
+                <p>
+                    Boolando s.r.l.
+                </p>
+                <p>
+                    Trovaci anche su
+                </p>
+            </div>
+            <div class="flex-row legal-infos tini-font">
+                <p>
+                    informazioni legali
+                </p>
+                <p>
+                    Informativa sulla privacy
+                </p>
+                <p>
+                    Diritto di recesso
+                </p>
+            </div>
+            <div class="flex-row icon-footer"> 
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-square-pinterest"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
